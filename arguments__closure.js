@@ -3,13 +3,13 @@
 // `double` should take a number and return the number times two.
 // `square` should take a number and return the number squared.
 
-// const double = num => num * 2 ;
-//
-// const square = num => num * num;
-//
-// const doubleSquare = num => square(double(num));
-//
-// console.log(doubleSquare(5))
+const double = num => num * 2 ;
+
+const square = num => num * num;
+
+const doubleSquare = num => square(double(num));
+
+console.log(doubleSquare(5))
 
 
 // 2. Create a function `classyGreeting` that takes as input the strings `firstName`  and `lastName`,
@@ -53,7 +53,7 @@
 
 // 4. Given a list of grades, we can get the median grade by sorting the list and taking the middle element, or the average of the two middle elements.
 // Create the functions `sort` and `middleElement`, and then use them to create the functions `median`.
-// 
+//
 // let grades = [91, 85, 100, 92, 88];
 //
 // console.log(median(grades)); // Should log 91
